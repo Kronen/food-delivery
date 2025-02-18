@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.github.kronen</groupId>
     <artifactId>cellardoor-bom</artifactId>
-    <version>0.7.4</version>
+    <version>0.8.1</version>
     <relativePath/>
   </parent>
 
@@ -18,29 +18,21 @@
   <name>food-delivery</name>
   <description>Food Delivery</description>
 
+  <scm>
+    <connection>scm:git:https://github.com/Kronen/food-delivery.git</connection>
+    <developerConnection>scm:git:https://github.com/Kronen/food-delivery.git</developerConnection>
+    <url>https://github.com/Kronen/food-delivery</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
-    <maven.compiler.source>23</maven.compiler.source>
-    <maven.compiler.target>23</maven.compiler.target>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <dependencyManagement>
+    <dependencies/>
+  </dependencyManagement>
+
   <dependencies>
-
   </dependencies>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.13.0</version>
-          <configuration>
-            <!-- put your configurations here -->
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 
 </project>
