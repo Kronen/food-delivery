@@ -17,6 +17,9 @@
 
   <name>food-delivery</name>
   <description>Food Delivery</description>
+  <modules>
+    <module>order-service</module>
+  </modules>
 
   <scm>
     <connection>scm:git:https://github.com/Kronen/food-delivery.git</connection>
