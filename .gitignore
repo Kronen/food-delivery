@@ -89,3 +89,7 @@ boot/log.json*
 log.json
 .codiumai
 *.gz
+
+.qodo
+
+.qodo
